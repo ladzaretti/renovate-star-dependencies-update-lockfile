@@ -1,0 +1,13 @@
+* Renovate Star Dependencies
+Example repository to show how renovate treats =*= dependencies
+
+** Initially installed dependencies
+#+begin_src shell
+$> npm ls
+
+renovate-star-dependencies@1.0.0 /Users/aisamu/code/node/renovate-star-dependencies
+├── nbb@0.6.129
+├── npm@8.19.2
+├── rambda@7.2.1
+└── typescript@3.9.4
+#+end_src

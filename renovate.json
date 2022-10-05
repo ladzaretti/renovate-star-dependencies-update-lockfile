@@ -3,7 +3,7 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchPackageNames": ["npm"],
+      "matchManagers": ["npm"],
       "rangeStrategy": "pin"
     }
   ]

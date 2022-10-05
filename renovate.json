@@ -1,36 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "stabilityDays": 21,
-  "internalChecksFilter": "strict",
-  "dependencyDashboard": true,
-  "major": {
-    "automerge": false,
-    "dependencyDashboardApproval": true,
-    "addLabels": ["major-upgrade"]
-  },
-  "replacement": {
-    "automerge": false,
-    "addLabels": ["replacement"]
-  },
-  "vulnerabilityAlerts": {
-    "addLabels": ["security"]
-  },
-  "transitiveRemediation": true,
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest",
-        "pinDigest",
-        "rollback",
-        "bump"
-      ],
-      "automerge": true,
-      "platformAutomerge": true,
-      "addLabels": ["dependencies"]
-    }
-  ]
+  "dependencyDashboard": true
 }

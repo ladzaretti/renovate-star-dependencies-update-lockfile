@@ -13,7 +13,7 @@
     "typescript": "x"
   },
   "dependencies": {
-    "got": "^11.8.3",
+    "got": "^12.0.0",
     "nbb": "0.7.135",
     "npm": "*"
   }
